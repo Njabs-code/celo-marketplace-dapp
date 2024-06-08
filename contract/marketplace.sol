@@ -17,7 +17,7 @@ interface IERC20Token {
 contract Marketplace {
 
     uint internal productsLength = 0;
-    address internal cUsdTokenAddress = 0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
+    address internal cUsdTokenAddress = 0x9933489977551581f8f71d39f7c80a19d96dabcb;
 
     struct Product {
         address payable owner;
